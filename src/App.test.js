@@ -13,3 +13,17 @@ test('renders links container without throwing an error', () => {
   const linksContainer = findByTestAttr(wrapper, 'links-container'); 
   expect(linksContainer.length).toBe(1);
 });
+
+test("finds browser router tag without throwing an error", () => {
+  const wrapper = setUp(); 
+  const browser = findByTestAttr(wrapper, 'browser-router-tag'); 
+  expect(browser.length).toBe(1); 
+}); 
+
+test("locates routes from browserRouter for component routes without throwing an error", () => {
+  const wrapper = setUp(); 
+  const routes = findByTestAttr(wrapper, 'routes'); 
+  expect(routes.length).toBe(4); 
+}); 
+
+
