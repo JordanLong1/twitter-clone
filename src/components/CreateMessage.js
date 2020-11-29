@@ -3,7 +3,7 @@ import React from 'react';
 class CreateMessage extends React.Component {
     render() {
         return (
-            <div>
+            <div data-test='create-message-component'>
                 Create a message 
             </div>
         );

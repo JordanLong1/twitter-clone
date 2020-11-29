@@ -3,7 +3,7 @@ import React from 'react';
 class CreateTweet extends React.Component {
     render() {
         return (
-            <div>
+            <div data-test='create-tweet-component'>
                 Create a tweet
             </div>
         );
