@@ -3,7 +3,7 @@ import React from 'react';
 class Feed extends React.Component {
     render() {
         return (
-            <div>
+            <div data-test='feed-component'>
 
             </div>
         )
